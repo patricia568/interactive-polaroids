@@ -52,4 +52,5 @@ body{
 .polaroid:hover {
   filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .5));
   transform: rotate(0);
+  z-index: 1;
 }
