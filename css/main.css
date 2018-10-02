@@ -37,16 +37,22 @@ body{
 .polaroid:first-child {
   transform: rotate(-15deg);
   transition: all .2s linear;
+  left: 15em;
+  top: 10em;
 }
 
 .polaroid:nth-child(2) {
   transform: rotate(5deg);
   transition: all .1s linear;
+  left: 21em;
+  top: 12em;
 }
 
 .polaroid:last-child {
   transform: rotate(25deg);
   transition: all .3s linear;
+  left: 27em;
+  top: 10em;
 }
 
 .polaroid:hover {
